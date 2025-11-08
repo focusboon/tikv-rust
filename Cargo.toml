@@ -16,7 +16,7 @@ prometheus = ["prometheus/push", "prometheus/process"]
 integration-tests = []
 
 [lib]
-name = "tikv_client"
+name = "tikv_rust"
 
 [workspace]
 members = [
