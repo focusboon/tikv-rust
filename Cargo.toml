@@ -1,6 +1,6 @@
 [package]
 name = "tikv-rust"
-version = "0.3.0"
+version = "0.3.1"
 keywords = ["TiKV", "KV", "osunbit"]
 license = "Apache-2.0"
 authors = ["The TiKV Project Authors"]
@@ -64,3 +64,14 @@ tokio = { version = "1", features = ["sync", "rt-multi-thread", "macros"] }
 name = "failpoint_tests"
 path = "tests/failpoint_tests.rs"
 required-features = ["fail/failpoints"]
+
+exclude = [
+    "tests/*",
+    "examples/*",
+    ".github/*",
+    "doc/*",
+    "config/*",
+    "Makefile",
+    "OWNERS",
+]
+
