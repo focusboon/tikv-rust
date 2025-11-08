@@ -1,11 +1,11 @@
 [package]
-name = "tikv-client"
+name = "tikv-rust"
 version = "0.3.0"
-keywords = ["TiKV", "KV", "distributed-systems"]
+keywords = ["TiKV", "KV", "osunbit"]
 license = "Apache-2.0"
 authors = ["The TiKV Project Authors"]
-repository = "https://github.com/tikv/client-rust"
-description = "The Rust language implementation of TiKV client."
+repository = "https://github.com/focusboon/tikv-rust"
+description = "Production ready fork!, A fork TiKV client before release 1.0."
 edition = "2021"
 
 [features]
